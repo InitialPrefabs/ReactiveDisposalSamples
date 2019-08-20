@@ -1,0 +1,3 @@
+[submodule "Assets/ReactiveDisposal"]
+	path = Assets/ReactiveDisposal
+	url = git@github.com:InitialPrefabs/ReactiveDisposal.git
