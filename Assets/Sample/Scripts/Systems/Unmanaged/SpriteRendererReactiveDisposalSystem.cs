@@ -1,11 +1,10 @@
 using Unity.Jobs;
-using UnityEngine;
 
-namespace Reactive.Unmanaged.Systems {
+namespace ReactiveDisposal.Unmanaged.Systems {
 
-    public class SpriteRendererReactiveDisposalSystem : ReactiveDisposalSystem {
+    public class SpriteRendererReactiveDisposalSystem : ReactiveDisposalSystem<SpriteRendererBlob> {
         protected override JobHandle OnUpdate(JobHandle inputDeps) {
-            return ScheduleDisposalJob<SpriteRendererBlob>(inputDeps);
+            return ScheduleDisposalJob(inputDeps);
         }
     }
 }

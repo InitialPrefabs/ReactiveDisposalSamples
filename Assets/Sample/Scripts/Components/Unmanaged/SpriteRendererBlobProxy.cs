@@ -2,7 +2,7 @@ using Unity.Collections;
 using Unity.Entities;
 using UnityEngine;
 
-namespace Reactive.Unmanaged {
+namespace ReactiveDisposal.Unmanaged {
 
     public struct SpriteRendererRefWrapper {
         public SpriteRenderer WrappedValue;
@@ -18,8 +18,9 @@ namespace Reactive.Unmanaged {
         public SpriteRenderer SpriteRenderer => BlobAsset.Value.Ptr.Value.WrappedValue;
 
         public void Dispose() {
-            if (BlobAsset.IsCreated)
+            if (BlobAsset.IsCreated) {
                 BlobAsset.Dispose();
+            }
         }
     }
 

@@ -1,8 +1,7 @@
-using Unity.Collections;
 using Unity.Entities;
 using UnityEngine;
 
-namespace Reactive.Unmanaged.Systems {
+namespace ReactiveDisposal.Unmanaged.Systems {
 
     [UpdateInGroup(typeof(DisposalTriggerGroup))]
     public class DestroySpriteRenderererEntitySystem : ComponentSystem {
