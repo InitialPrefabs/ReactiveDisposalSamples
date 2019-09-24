@@ -11,14 +11,14 @@
         "XrDevice": ""
     },
     "EditorVersion": {
-        "FullVersion": "2019.2.2f1 (ab112815d860)",
-        "DateSeconds": 1565746321,
-        "Branch": "2019.2/release",
-        "RevisionValue": 11211048
+        "FullVersion": "2019.3.0b4 (3271e9fc5036)",
+        "DateSeconds": 1568353082,
+        "Branch": "2019.3/staging",
+        "RevisionValue": 3305961
     },
     "BuildSettings": {
-        "Platform": "OSXEditor",
-        "BuildTarget": "StandaloneOSX",
+        "Platform": "LinuxEditor",
+        "BuildTarget": "StandaloneLinux64",
         "DevelopmentPlayer": false,
         "AndroidBuildSystem": "Gradle"
     },
@@ -51,7 +51,7 @@
         "ScriptingRuntimeVersion": ""
     },
     "TestSuite": "",
-    "StartTime": 1568300883273.158,
+    "StartTime": 1569348502709.137,
     "EndTime": 0.0,
     "Results": []
 }
