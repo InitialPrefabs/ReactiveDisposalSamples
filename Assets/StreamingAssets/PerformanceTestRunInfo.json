@@ -11,14 +11,14 @@
         "XrDevice": ""
     },
     "EditorVersion": {
-        "FullVersion": "2019.3.0b4 (3271e9fc5036)",
-        "DateSeconds": 1568353082,
+        "FullVersion": "2019.3.0b6 (0612c96692fb)",
+        "DateSeconds": 1570021703,
         "Branch": "2019.3/staging",
-        "RevisionValue": 3305961
+        "RevisionValue": 398025
     },
     "BuildSettings": {
-        "Platform": "LinuxEditor",
-        "BuildTarget": "StandaloneLinux64",
+        "Platform": "WindowsEditor",
+        "BuildTarget": "StandaloneWindows64",
         "DevelopmentPlayer": false,
         "AndroidBuildSystem": "Gradle"
     },
@@ -51,7 +51,7 @@
         "ScriptingRuntimeVersion": ""
     },
     "TestSuite": "",
-    "StartTime": 1569348502709.137,
+    "StartTime": 1570480929663.211,
     "EndTime": 0.0,
     "Results": []
 }
