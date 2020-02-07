@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace ReactiveDisposal.Unmanaged.Systems {
 
-    [UpdateInGroup(typeof(DisposalTriggerGroup))]
     public class DestroyUnmanagedEntitySystem : ComponentSystem {
 
         protected override void OnUpdate() {
